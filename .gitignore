@@ -1,0 +1,19 @@
+# ide/code editor clutter
+.vs/
+.vscode/
+
+# bins
+bin/
+bin-obj/
+!/vendor/premake/bin
+
+# gen proj files
+*.sln
+*.vcxproj*
+*.mk
+*.make
+/Makefile
+**/Makefile
+
+# log outs
+*.log
