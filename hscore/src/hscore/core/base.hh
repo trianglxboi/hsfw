@@ -1,7 +1,7 @@
 #ifndef HSCORE_CORE_BASE_HH
 #define HSCORE_CORE_BASE_HH
 
-#include "hscore/core/log.hh"
+#include "hscore/core/assert.hh"
 
 #include "hscore/misc/buildinfo.hh"
 #include "hscore/misc/miscdef.hh"

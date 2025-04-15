@@ -32,7 +32,8 @@ namespace hsfw {
 			return "The application has failed to ensure operational integrity and has recorded a log with the fatal severity, cannot "
 				   "ensure proper system operations and the application has to quit. The application log will contain the recorded fatal log.";
 		case RET_ASSERTION_FAILED:
-			return "The application tried to assert that a certain condition was as expected, but the condition didn't match the criteria.";
+			return "The application tried to assert that a certain condition was as expected, but the condition didn't match the criteria. "
+				   "The application log may contain information about the assertion that failed.";
 		case RET_GPU_NOT_SUPPORTED:
 			return "The selected GPU isn't compatible with the requirements of the application. Refer to logs for more information.";
 		default:
